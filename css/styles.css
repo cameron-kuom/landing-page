@@ -36,12 +36,26 @@ body {
     font-size: 20px;
     display: flex;
     gap: 20px;
-
 }
 
 ul, a {
     text-decoration: none;
     list-style-type: none;
+}
+
+.hero {
+    margin: 70px 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.subtext {
+    margin-top: -8px;
 }
 
 button {
