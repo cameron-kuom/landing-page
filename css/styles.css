@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.white-font {
+    color: #f9faf8;
+}
+
+.light-white-font {
+    color: #e5e7eb;
+}
+
+.section-one {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.links {
+
+}
