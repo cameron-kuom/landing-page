@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .white-font {
@@ -21,6 +21,7 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-around;
 }
 
 .header-logo {
@@ -28,5 +29,10 @@ body {
 }
 
 .links {
+    display: flex;
+}
 
+ul, a {
+    text-decoration: none;
+    list-style-type: none;
 }
