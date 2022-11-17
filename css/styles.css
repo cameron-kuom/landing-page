@@ -44,14 +44,11 @@ ul, a {
 }
 
 .hero {
-    margin: 70px 400px; 
+    margin: 70px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.hero-left {
-    width: 50%;
+    gap: 250px;
 }
 
 .subtext {
