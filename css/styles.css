@@ -119,5 +119,19 @@ button {
 }
 
 .section-three {
+    height: 40vh;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+}
+
+.quote-subtext {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
 }
