@@ -58,7 +58,7 @@ ul, a {
 
 .subtext {
     font-size: 24px;
-    margin-top: -25px;
+    margin-top: -25px
 }
 
 button {
@@ -86,10 +86,16 @@ button {
     align-items: center;
 }
 
+.content-header {
+    font-size: 32px;
+    font-weight: bold;
+}
+
 .content-boxes {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 50%;
+    margin: 25px 0px;
 }
 
 .box {
@@ -102,6 +108,7 @@ button {
 .box-image {
     width: 200px;
     height: 200px;
+    border-radius: 8px;
 }
 
 .content-text {
